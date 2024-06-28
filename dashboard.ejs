@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(120deg, #007bff, #d0314c);
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            width: 350px;
+            padding: 30px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .container h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .container p {
+            font-size: 16px;
+            color: #333;
+        }
+
+        .search-bar {
+            margin-top: 20px;
+            display: flex;
+        }
+
+        .search-bar input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px 0 0 5px;
+            font-size: 16px;
+        }
+
+        .search-bar button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .search-bar button:hover {
+            background-color: #0056b3;
+        }
+
+        .results {
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .result-item {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to your Dashboard, <%= username %>!</h2>
+        <p>Login successful!</p>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button onclick="performSearch()">Search</button>
+        </div>
+        <div class="results" id="results"></div>
+    </div>
+
+    <script>
+        const apiKey = 'planet';
+
+        function performSearch() {
+            const query = document.getElementById('searchInput').value;
+            if (query) {
+                fetch(`https://api.example.com/search?query=${query}&apiKey=${apiKey}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log(data);
+                        displayResults(data);
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+            } else {
+                alert('Please enter a search query');
+            }
+        }
+
+        function displayResults(data) {
+            const resultsContainer = document.getElementById('results');
+            resultsContainer.innerHTML = '';
+            if (data.results && data.results.length > 0) {
+                data.results.forEach(item => {
+                    const div = document.createElement('div');
+                    div.className = 'result-item';
+                    div.innerText = item.title; // Adjust this according to the structure of your search result
+                    resultsContainer.appendChild(div);
+                });
+            } else {
+                resultsContainer.innerText = 'No results found.';
+            }
+        }
+    </script>
+</body>
+</html>

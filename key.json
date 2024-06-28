@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "centered-radio-413004",
+  "private_key_id": "7ecb6597045166677091e8291d3d2f84bd4fdad8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDh5o4kZbrQKKi9\nhM55E3K3Wj2oFrjthuCWqWkTQGlsUohKtWFv5WGW+D+ahgpx37n1MqsNJmwveLQQ\n/RLq6MiwUzu9zr0DX5MBL6NAl1/Y8yczdXfsV+CmpbXY3mUoosnHnaSaf9O/2gmv\nSRwTgTM7XRBk2L2/OXslnQZtin0HyhH5Go6/S32pBk1gSYrJD7INkKWk/iHLaUYc\nvhC6vfNVqLdJzO6WWVgdWZHfOWbLVnMwTMA2BMACM0/eiTDmZ41xftqmyZcjG8W1\nPK/6koWBo4Gt3UIjSMAcP1AgGn7XZpTTZ+1r8LIUzsHWg9EzqsLzTyW0vvlgWUgc\nbyJ01OqFAgMBAAECggEAGnNmU+U0g2CrZ2uISJ2KGmV+4DJu62MWY5XJF6e8YGJm\nkobb9p/vdh+xxNxqlyxY6BjLdhH4a3OQ9AdKAocIzrqkPWSada1od2RWU38WCj9o\naOpZhStCAwlWumLKCgDLqyuuhSewCeAUL7naB3+imdIbFA/b4ervXDdfdA6Z9sIO\nVpBXcvhL1dwHmrVMPB8OXMIa7wq9McAqmBmUZ42e2YdRZqsFn/NiLstc5wzG7Oe3\nMs8v8CywwU8jYTUT/kOYTtUu3DlQN566w2X0AfC6s2OFEzSWln9KJ/MF76XR/fmc\nuNN+PIGq+SW8kxJDLg9mwnFHlZyXzWGdJQv4lNfUeQKBgQD1E64yKId3aO5x8sIN\nx/wlkPuDsTAiEyf9dGDS2T64GMZJVQn/2VrIZPMJvJH+zOxgri1o3jLmVW4yAbX+\nC23Uty4fmaC2NpizJxBWZrDaIsnv1C3eqb34yBBj1UpIfLz2sY55DDuujvkCDynI\nRopubgMs7hS2su+jRG9rq3VhGQKBgQDr+BL67I+Jxvc9eYaOXNmEzaIHRHTLHnN/\nHBpFOVv9QeZPXXDdRmOlxiS9A79vV/2p+O5mxL7ph4sSSqpxL7VJ200DS/A1nrm4\niUMUczBNv6vb1hwvGrPMbvDVqwqa7RhNHCmiaU0pyx4gKd7idY9CgL3jep9N7dfI\nXgdzCaUmTQKBgQCsPvnGXP/g6An2YkULBIxuJrjvNOB8gnQvydSnPHK9VwQ91Bvk\nCvKoN3MtW7BMoeBcju5xbwHdKxv434T2mTfHMjujkAkJJ9QozgLIhwIzPhIpkjnu\n7eQL7yi90dGUor74r5BP+U4VAH14egnGrfVrabynnmlGgvq0CEw7I1WrOQKBgB+H\nrVmUBHX/fQfc1irtoy8Inw7jicueTQZ+BdCcInuLs6+FJ9CZWDVNbZlIB+tj0YRF\nu+1FetEPiHiwO2gWXN36jKbVHcq8Y8qRpMH1xk2NP/SG/osYwU+ev1V9nlQnPCkJ\ni1KlSWc9OdBIZ/zQgoz7UOQ1fVXXYw7l6Y7oigW9AoGBAN0+D9inxOfYkNNUpWVF\n2C3hu8WRWADfnGXfbAVwyyJqfp3GLLKrMhr5twCaJyg6B1fraAOQ8I5JsS+kmuPb\n3c4tXvfC3gnjKpOPI59Dhi7WzMyVy81lHp/6DE0aXek58Qissp4wyVmj/LbWl51V\n0GYSbluX2HzC4HWJTLGRMNXC\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-gmxi8@centered-radio-413004.iam.gserviceaccount.com",
+  "client_id": "109707419068629678803",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-gmxi8%40centered-radio-413004.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
